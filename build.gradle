@@ -36,6 +36,7 @@ dependencyManagement {
 }
 
 dependencies {
+    compile 'com.amazonaws:aws-java-sdk-sts'
     compile 'com.amazonaws:aws-java-sdk-iam'
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
     testCompile group: 'junit', name: 'junit', version: '4.12'
